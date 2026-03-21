@@ -1,0 +1,235 @@
+{
+  "logs": [
+    {
+      "timestamp": "2026-03-21T23:50:57.927773",
+      "is_threat": false,
+      "message": "Attack detected: RANSOMWARE on /backup/database from 176.28.196.107",
+      "attack_type": "ransomware",
+      "confidence": 0.9996649423160122,
+      "source_ip": "176.28.196.107",
+      "endpoint": "/backup/database",
+      "id": 1
+    },
+    {
+      "timestamp": "2026-03-21T23:50:58.983411",
+      "is_threat": true,
+      "message": "Attack detected: PATH_TRAVERSAL on /medical_records from 247.144.2.164",
+      "attack_type": "path_traversal",
+      "confidence": 0.9311890680851236,
+      "source_ip": "247.144.2.164",
+      "endpoint": "/medical_records",
+      "id": 2
+    },
+    {
+      "timestamp": "2026-03-21T23:51:01.298431",
+      "is_threat": false,
+      "message": "Attack detected: PATH_TRAVERSAL on /debug/console from 241.194.16.233",
+      "attack_type": "path_traversal",
+      "confidence": 0.9018825306498582,
+      "source_ip": "241.194.16.233",
+      "endpoint": "/debug/console",
+      "id": 3
+    },
+    {
+      "timestamp": "2026-03-21T23:51:04.127589",
+      "is_threat": true,
+      "message": "Attack detected: SQL_INJECTION on /config/settings from 236.222.17.84",
+      "attack_type": "sql_injection",
+      "confidence": 0.9991840692451982,
+      "source_ip": "236.222.17.84",
+      "endpoint": "/config/settings",
+      "id": 4
+    },
+    {
+      "timestamp": "2026-03-21T23:51:07.105150",
+      "is_threat": true,
+      "message": "Attack detected: SQL_INJECTION on /payment/process from 253.39.107.240",
+      "attack_type": "sql_injection",
+      "confidence": 0.9958421946624534,
+      "source_ip": "253.39.107.240",
+      "endpoint": "/payment/process",
+      "id": 5
+    },
+    {
+      "timestamp": "2026-03-21T23:51:22.954053",
+      "is_threat": true,
+      "message": "Attack detected: SQL_INJECTION on /upload from 89.70.53.25",
+      "attack_type": "sql_injection",
+      "confidence": 0.5768379985549539,
+      "source_ip": "89.70.53.25",
+      "endpoint": "/upload",
+      "id": 6
+    },
+    {
+      "timestamp": "2026-03-21T23:51:26.700299",
+      "is_threat": true,
+      "message": "Attack detected: RANSOMWARE on /config/settings from 168.41.59.87",
+      "attack_type": "ransomware",
+      "confidence": 0.6006185999424793,
+      "source_ip": "168.41.59.87",
+      "endpoint": "/config/settings",
+      "id": 7
+    },
+    {
+      "timestamp": "2026-03-21T23:51:35.334838",
+      "is_threat": false,
+      "message": "Attack detected: RANSOMWARE on /config/settings from 104.123.193.69",
+      "attack_type": "ransomware",
+      "confidence": 0.9996649423160122,
+      "source_ip": "104.123.193.69",
+      "endpoint": "/config/settings",
+      "id": 8
+    },
+    {
+      "timestamp": "2026-03-21T23:51:37.271208",
+      "is_threat": false,
+      "message": "Attack detected: PATH_TRAVERSAL on /admin/login from 245.150.92.14",
+      "attack_type": "path_traversal",
+      "confidence": 0.9018825306498582,
+      "source_ip": "245.150.92.14",
+      "endpoint": "/admin/login",
+      "id": 9
+    },
+    {
+      "timestamp": "2026-03-21T23:51:39.300955",
+      "is_threat": false,
+      "message": "Attack detected: PATH_TRAVERSAL on /debug/console from 98.38.122.187",
+      "attack_type": "path_traversal",
+      "confidence": 0.9331658983118982,
+      "source_ip": "98.38.122.187",
+      "endpoint": "/debug/console",
+      "id": 10
+    },
+    {
+      "timestamp": "2026-03-21T23:51:45.101235",
+      "is_threat": true,
+      "message": "Attack detected: SQL_INJECTION on /config/settings from 80.106.176.78",
+      "attack_type": "sql_injection",
+      "confidence": 0.7285336138051792,
+      "source_ip": "80.106.176.78",
+      "endpoint": "/config/settings",
+      "id": 11
+    },
+    {
+      "timestamp": "2026-03-21T23:51:46.172222",
+      "is_threat": false,
+      "message": "Attack detected: COMMAND_INJECTION on /backup/database from 131.207.27.12",
+      "attack_type": "command_injection",
+      "confidence": 0.9515099762510665,
+      "source_ip": "131.207.27.12",
+      "endpoint": "/backup/database",
+      "id": 12
+    },
+    {
+      "timestamp": "2026-03-21T23:51:52.088124",
+      "is_threat": false,
+      "message": "Attack detected: PATH_TRAVERSAL on /backup/database from 198.108.232.194",
+      "attack_type": "path_traversal",
+      "confidence": 0.9221313896349526,
+      "source_ip": "198.108.232.194",
+      "endpoint": "/backup/database",
+      "id": 13
+    },
+    {
+      "timestamp": "2026-03-21T23:51:54.597764",
+      "is_threat": false,
+      "message": "Attack detected: PATH_TRAVERSAL on /debug/console from 216.153.17.228",
+      "attack_type": "path_traversal",
+      "confidence": 0.9018825306498582,
+      "source_ip": "216.153.17.228",
+      "endpoint": "/debug/console",
+      "id": 14
+    },
+    {
+      "timestamp": "2026-03-21T23:52:01.769104",
+      "is_threat": false,
+      "message": "Attack detected: PATH_TRAVERSAL on /api/patients from 211.209.24.93",
+      "attack_type": "path_traversal",
+      "confidence": 0.9679440103931679,
+      "source_ip": "211.209.24.93",
+      "endpoint": "/api/patients",
+      "id": 15
+    },
+    {
+      "timestamp": "2026-03-21T23:52:03.477345",
+      "is_threat": false,
+      "message": "Attack detected: COMMAND_INJECTION on /payment/process from 197.236.132.179",
+      "attack_type": "command_injection",
+      "confidence": 0.9962206771259109,
+      "source_ip": "197.236.132.179",
+      "endpoint": "/payment/process",
+      "id": 16
+    },
+    {
+      "timestamp": "2026-03-21T23:52:07.844744",
+      "is_threat": false,
+      "message": "Attack detected: SQL_INJECTION on /api/patients from 32.142.32.243",
+      "attack_type": "sql_injection",
+      "confidence": 0.9916092325521949,
+      "source_ip": "32.142.32.243",
+      "endpoint": "/api/patients",
+      "id": 17
+    },
+    {
+      "timestamp": "2026-03-21T23:52:20.134193",
+      "is_threat": true,
+      "message": "Attack detected: SQL_INJECTION on /api/prescriptions from 234.100.2.98",
+      "attack_type": "sql_injection",
+      "confidence": 0.9632834519131963,
+      "source_ip": "234.100.2.98",
+      "endpoint": "/api/prescriptions",
+      "id": 18
+    },
+    {
+      "timestamp": "2026-03-21T23:52:21.174506",
+      "is_threat": false,
+      "message": "Attack detected: XSS on /payment/process from 108.221.152.117",
+      "attack_type": "xss",
+      "confidence": 0.542398648940615,
+      "source_ip": "108.221.152.117",
+      "endpoint": "/payment/process",
+      "id": 19
+    },
+    {
+      "timestamp": "2026-03-21T23:52:23.583623",
+      "is_threat": true,
+      "message": "Attack detected: SQL_INJECTION on /config/settings from 129.136.25.159",
+      "attack_type": "sql_injection",
+      "confidence": 0.9970920179630827,
+      "source_ip": "129.136.25.159",
+      "endpoint": "/config/settings",
+      "id": 20
+    }
+  ],
+  "patterns": {
+    "path_traversal": {
+      "name": "Path Traversal",
+      "count": 1,
+      "confidence": 0.9311890680851236,
+      "attack_type": "path_traversal",
+      "first_seen": "2026-03-21T23:50:58.983411",
+      "last_seen": "2026-03-21T23:50:58.983411"
+    },
+    "sql_injection": {
+      "name": "Sql Injection",
+      "count": 6,
+      "confidence": 0.9970920179630827,
+      "attack_type": "sql_injection",
+      "first_seen": "2026-03-21T23:51:04.127589",
+      "last_seen": "2026-03-21T23:52:23.583623"
+    },
+    "ransomware": {
+      "name": "Ransomware",
+      "count": 1,
+      "confidence": 0.6006185999424793,
+      "attack_type": "ransomware",
+      "first_seen": "2026-03-21T23:51:26.700299",
+      "last_seen": "2026-03-21T23:51:26.700299"
+    }
+  },
+  "statistics": {
+    "threats_detected": 8,
+    "attacks_blocked": 8,
+    "total_requests": 20
+  }
+}

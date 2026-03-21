@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Security System v1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">HEALTHCARE SECURITY SYSTEM v1.0</div>
+        <div class="status-badge" id="statusBadge">SYSTEM OFFLINE</div>
+    </div>
+    
+    <div class="hero" id="heroSection">
+        <h1>NO BREACHES.<br>ONLY BOLD MOVES</h1>
+        <p>AI-POWERED AUTONOMOUS AGENTS PROTECTING YOUR HEALTHCARE DATA FROM RANSOMWARE AND DATA LEAKS IN REAL-TIME.</p>
+        
+        <div class="controls">
+            <button class="btn btn-primary" id="startBtn">START MONITORING</button>
+            <button class="btn btn-secondary" id="stopBtn" style="display:none;">STOP SYSTEM</button>
+        </div>
+    </div>
+
+    <div class="dashboard" id="dashboard">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Threats Detected</h3>
+                <div class="stat-value" id="threatsCount">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Attacks Blocked</h3>
+                <div class="stat-value" id="blockedCount">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>AI Confidence</h3>
+                <div class="stat-value" id="confidence">98%</div>
+            </div>
+        </div>
+
+        <div class="log-container">
+            <h3 style="color: #f4e87c; margin-bottom: 20px; letter-spacing: 2px;">LIVE THREAT LOG</h3>
+            <div id="logEntries"></div>
+        </div>
+
+        <div class="attack-patterns">
+            <h3 style="color: #f4e87c; margin: 40px 0 20px 0; letter-spacing: 2px;">ATTACK PATTERNS LEARNED</h3>
+            <div id="patternsList"></div>
+        </div>
+    </div>
+    
+    <div class="radar-container">
+        <div class="radar-outer">
+            <div class="radar-inner">
+                <div class="radar-grid"></div>
+                <div class="radar-line"></div>
+                <div class="radar-dot"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="floating-controls">
+        <div class="icon-btn" title="Scroll to Top" id="scrollTop">
+            <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 19V5M5 12l7-7 7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="icon-btn" title="Fullscreen" id="fullscreen">
+            <svg viewBox="0 0 24 24" fill="none">
+                <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

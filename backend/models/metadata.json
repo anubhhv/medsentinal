@@ -1,0 +1,15 @@
+{
+  "trained_date": "2026-03-21T23:48:14.288145",
+  "feature_names": [
+    "endpoint_length",
+    "pattern_length",
+    "has_special_chars",
+    "has_sql_keywords",
+    "has_script_tags",
+    "has_path_traversal",
+    "method_post",
+    "method_delete",
+    "suspicious_endpoint"
+  ],
+  "model_type": "GradientBoostingClassifier"
+}
